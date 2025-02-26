@@ -1,0 +1,20 @@
+@import "./variables";
+Body{
+
+    .header{
+        background-color: $body-color !important;
+        color: $primary-color !important;
+        box-shadow:none !important;
+        width: 100%;
+        justify-content: space-around;
+        @media (max-width:400px) {
+            background-color: white !important;
+            
+          }
+        .DesktopMenu{
+            @media (max-width:900px) {
+                display: none;
+              }
+        }
+    }
+}
