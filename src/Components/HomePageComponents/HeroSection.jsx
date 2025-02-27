@@ -143,7 +143,7 @@ const HeroSection = () => {
       height:{sm:"200px",md:"500px"} 
       }}>
           <img
-            src="/herobanner.png" // Replace with actual image path
+            src={`${process.env.PUBLIC_URL}/herobanner.png`}// Replace with actual image path
             alt="Developer Portal"
             style={{
               
